@@ -1,0 +1,73 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+/* My code  */
+
+@font-face {
+    font-family: "inter"; 
+    src:
+      url("../fonts/inter-regular-webfont.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: "inter";
+    color: darkcyan;
+}
+
+body {
+    background-color: #fafad2;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    padding: 9px 6px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #b2a7f9;
+    color: #fafad2;
+}
+
+button:hover {
+    color: darkcyan;
+}
+
+h1, .home-text {
+    text-align: center;
+    padding: 20px;
+}
