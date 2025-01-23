@@ -36,20 +36,25 @@
 }
 * {
     font-family: "inter";
-    color: darkcyan;
+}
+
+:root {
+    --light-color: #d5bb98;
+    --medium-color: #bfa888;
+    --dark-color: #aa9579;
 }
 
 body {
-    background-color: #fafad2;
+    background-color: var(--light-color);
 }
 
 nav {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
+    padding: 20px;
     font-size: 1rem;
+    background-color: var(--dark-color);
 }
 
 button {
@@ -57,17 +62,25 @@ button {
     height: 40px;
     padding: 9px 6px;
     border-radius: 50px;
+    border-style: none;
     text-align: center;
     font-weight: bold;
-    background-color: #b2a7f9;
-    color: #fafad2;
+    background-color: var(--medium-color);
 }
 
 button:hover {
-    color: darkcyan;
+    background-color: var(--light-color);
 }
 
 h1, .home-text {
     text-align: center;
     padding: 20px;
+    background-color: var(--medium-color);
 }
+
+.image {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--medium-color);
+}
+
