@@ -1,6 +1,8 @@
 import homeImage from "../images/home-pic.jpg";
 
 export function homePage() {
+    document.getElementById("home").style.backgroundColor = "#d5bb98";
+
     const contentDiv = document.querySelector("#content");
 
     const header = document.createElement("h1");
