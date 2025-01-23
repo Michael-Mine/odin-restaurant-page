@@ -1,3 +1,5 @@
 import "./styles.css";
 
-console.log("Meow")
+import { homePage } from "./home-page";
+
+homePage();
