@@ -77,6 +77,14 @@ button {
     font-weight: bold;
 }
 
+.current-button {
+    background-color: var(--light-color);
+}
+
+.non-current-button {
+    background-color: var(--medium-color)
+}
+
 img {
     padding-left: 20px;
     padding-right: 20px;

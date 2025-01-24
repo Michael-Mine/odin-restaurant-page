@@ -1,7 +1,30 @@
 import homeImage from "../images/home-pic.jpg";
 
 export function homePage() {
-    document.getElementById("home").style.backgroundColor = "#d5bb98";
+    const homeButton = document.querySelector("#home");
+    homeButton.setAttribute("style", "background-color:#d5bb98");
+
+    const aboutButton = document.querySelector("#about");
+    aboutButton.setAttribute("style", "background-color:#bfa888");
+
+    // aboutButton.addEventListener('mouseover', () => {
+    //     aboutButton.style.backgroundColor = "#d5bb98";
+    // });
+
+    // aboutButton.addEventListener('mouseout', () => {
+    //     aboutButton.style.backgroundColor = "#bfa888";
+    // });
+
+    const menuButton = document.querySelector("#menu");
+    menuButton.setAttribute("style", "background-color:#bfa888");
+
+    // menuButton.addEventListener('mouseover', () => {
+    //     menuButton.style.backgroundColor = "#d5bb98";
+    // });
+
+    // menuButton.addEventListener('mouseout', () => {
+    //     menuButton.style.backgroundColor = "#bfa888";
+    // });  
 
     const contentDiv = document.querySelector("#content");
 
