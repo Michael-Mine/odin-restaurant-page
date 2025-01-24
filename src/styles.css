@@ -44,7 +44,7 @@
     --dark-color: #aa9579;
 }
 
-body {
+body, button:hover{
     background-color: var(--light-color);
 }
 

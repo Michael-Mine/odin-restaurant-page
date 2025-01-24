@@ -4,24 +4,8 @@ export function menuPage() {
     const homeButton = document.querySelector("#home");
     homeButton.setAttribute("style", "background-color:#bfa888");
 
-    // homeButton.addEventListener('mouseover', () => {
-    //     homeButton.style.backgroundColor = "#d5bb98";
-    // });
-
-    // homeButton.addEventListener('mouseout', () => {
-    //     homeButton.style.backgroundColor = "#bfa888";
-    // });
-
     const aboutButton = document.querySelector("#about");
     aboutButton.setAttribute("style", "background-color:#bfa888");
-
-    // aboutButton.addEventListener('mouseover', () => {
-    //     aboutButton.style.backgroundColor = "#d5bb98";
-    // });
-
-    // aboutButton.addEventListener('mouseout', () => {
-    //     aboutButton.style.backgroundColor = "#bfa888";
-    // }); 
 
     const menuButton = document.querySelector("#menu");
     menuButton.setAttribute("style", "background-color:#d5bb98")
