@@ -11,32 +11,26 @@ const aboutButton = document.querySelector("#about");
 const menuButton = document.querySelector("#menu");
 const contentDiv = document.querySelector("#content");
 
-// function clearContent() {
-//     while(contentDiv.firstChild) {
-//         contentDiv.removeChild(contentDiv.firstChild);
-//     }
-// }
-
-homeButton.addEventListener("click", () => {
-    
+function clearContent() {
     while(contentDiv.firstChild) {
         contentDiv.removeChild(contentDiv.firstChild);
     }
+}
+
+homeButton.addEventListener("click", () => {
+    
+    clearContent();
     homePage();
 });
 
 aboutButton.addEventListener("click", () => {
     
-    while(contentDiv.firstChild) {
-        contentDiv.removeChild(contentDiv.firstChild);
-    }
+    clearContent();
     aboutPage();
 });
 
 menuButton.addEventListener("click", () => {
     
-    while(contentDiv.firstChild) {
-        contentDiv.removeChild(contentDiv.firstChild);
-    }
+    clearContent();
     menuPage();
 });
