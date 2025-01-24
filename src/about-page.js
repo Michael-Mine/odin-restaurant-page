@@ -17,8 +17,8 @@ export function aboutPage() {
     imageDiv.appendChild(image);
 
     const textDiv1 = document.createElement("div");
-    textDiv1.textContent = "From our home kitchen, we cook and serve many delicious small and big plates to feed our hungry friends.";
     textDiv1.classList.toggle("text");
+    textDiv1.textContent = "From our home kitchen, we cook and serve many delicious small and big plates to feed our hungry friends.";
     contentDiv.appendChild(textDiv1);
 
     const textDiv2 = document.createElement("div");
@@ -30,7 +30,7 @@ export function aboutPage() {
     const textDiv3 = document.createElement("div");
     textDiv3.classList.toggle("text");
     textDiv3.style.paddingTop = "0px";
-    textDiv3.innerHTML = "Opening Hours: <br> Sunday to Monday: Closed <br> Tuesday to Thursday: 7pm to 10pm <br> Friday to Saturday: 4pm to 2am"
+    textDiv3.innerHTML = "<u>Opening Hours:</u> <br> Sunday to Monday: Closed <br> Tuesday to Thursday: 7pm to 10pm <br> Friday to Saturday: 4pm to 2am"
     
     contentDiv.appendChild(textDiv3);
 };

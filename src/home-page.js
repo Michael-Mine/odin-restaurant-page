@@ -17,7 +17,7 @@ export function homePage() {
     imageDiv.appendChild(image);
 
     const textDiv = document.createElement("div");
-    textDiv.textContent = "We host feasts for our amazing friends!";
     textDiv.classList.toggle("text");
+    textDiv.textContent = "We host feasts for our amazing friends!";
     contentDiv.appendChild(textDiv);
 };

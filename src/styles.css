@@ -44,17 +44,28 @@
     --dark-color: #aa9579;
 }
 
-body {
+body, button:hover {
     background-color: var(--light-color);
+}
+
+nav, h1, .text, .menu-container {
+    padding: 20px;
 }
 
 nav {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
     font-size: 1rem;
     background-color: var(--dark-color);
+}
+
+button, h1, .text, img, .menu-container {
+    background-color: var(--medium-color);
+}
+
+button, h1, .text {
+    text-align: center;
 }
 
 button {
@@ -63,24 +74,17 @@ button {
     padding: 9px 6px;
     border-radius: 50px;
     border-style: none;
-    text-align: center;
     font-weight: bold;
-    background-color: var(--medium-color);
-}
-
-button:hover {
-    background-color: var(--light-color);
-}
-
-h1, .text {
-    text-align: center;
-    padding: 20px;
-    background-color: var(--medium-color);
 }
 
 img {
     padding-left: 20px;
     padding-right: 20px;
-    background-color: var(--medium-color);
 }
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 
